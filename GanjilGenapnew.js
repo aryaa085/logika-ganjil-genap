@@ -8,13 +8,13 @@ function cekGanjilGenap(angka) {
   }
 }
 
-// Buat interface untuk membaca input dari user
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
 
-// Minta input dari user
+
 rl.question('Masukkan angka : ', (input) => {
   const angka = parseInt(input);
 
@@ -24,5 +24,5 @@ rl.question('Masukkan angka : ', (input) => {
     console.log("Input tidak valid, masukkan angka");
   }
 
-  rl.close(); // tutup input setelah selesai
+  rl.close(); 
 });
