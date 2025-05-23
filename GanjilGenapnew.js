@@ -21,7 +21,7 @@ rl.question('Masukkan angka : ', (input) => {
   if (!isNaN(angka)) {
     cekGanjilGenap(angka);
   } else {
-    console.log("input tidak valid, masukkan angka");
+    console.log("Input tidak valid, masukkan angka");
   }
 
   rl.close(); // tutup input setelah selesai
